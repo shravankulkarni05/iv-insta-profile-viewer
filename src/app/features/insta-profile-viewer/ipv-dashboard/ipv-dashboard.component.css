@@ -1,0 +1,22 @@
+.table-inf {
+    border: 1px solid #c2c2c2;
+}
+
+.table-inf td, th {
+    padding: 5px;
+    text-align: center;
+}
+
+.search-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.search-container button {
+    margin-left: 15px;
+}
+
+.search-container .example-full-width {
+    width: 50%;
+    max-width: 500px;
+  }

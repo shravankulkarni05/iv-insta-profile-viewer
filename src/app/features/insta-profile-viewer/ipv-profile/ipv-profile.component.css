@@ -1,0 +1,156 @@
+.user-header {
+    padding-bottom: 10px;
+}
+
+.user-header .user {
+    display: block;
+}
+
+.user-header .avatar {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 0 0;
+    background: #E9EBEC;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.user-header .avatar .img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.user-header .info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.user-header .username {
+    display: block;
+    margin: 0 0 0 0;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.user-header .text {
+    display: block;
+    font-size: 12px;
+    margin: 2px 0;
+    font-weight: 500;
+    color: #80868B;
+} 
+
+.user-header .followers {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.centered {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.user-details .link {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.user-details .link, .user-details .link:visited {
+    color: #8f1ebd;
+}
+
+.user-details .bio {
+    margin: 10px 0;
+}
+
+.material-icons-outlined {
+    margin-left: 5px;
+    cursor: default;
+}
+
+.material-icons-outlined.verified {
+    color: #0095f6;
+}
+
+.material-icons-outlined.lock {
+    color: #6e6e6e;
+}
+
+.account-info {
+    float: left;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+}
+
+.account-info .details {
+    display: block;
+    width: 100%;
+}
+
+.account-info .data {
+    display: flex;
+    width: 100%;
+}
+
+.account-info .data .info {
+    flex: 1;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.account-info .data .info .num {
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.account-info .data .info .text {
+    display: block;
+    font-size: 12px;
+}
+
+.fullsize-profile-picture {
+    width: 100%;
+    max-width: 900px;
+    margin: 12px auto 50px;
+    clear: both;
+    position: relative;
+}
+
+.fullsize-profile-picture .fullsize {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.fullsize-profile-picture .img {
+    display: block;
+    width: 400px;
+    height: auto;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.fullsize-profile-picture .download-pic {
+    position: absolute;
+    top: 0;
+    left: 73%;
+    font-size: 30px;
+    cursor: pointer;
+}
+

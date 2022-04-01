@@ -1,0 +1,23 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #080a1a;
+    color: #ffffff;
+    font-style: normal;
+    padding: 4px 0 10px;
+}
+
+.footer .container {
+    margin: 5px 0px 0px 0px;
+    padding: 0 15px;
+}
+
+.footer .container .made-by {
+    float: right;
+}
+
+.footer .container .copy-right {
+    float: left;
+}

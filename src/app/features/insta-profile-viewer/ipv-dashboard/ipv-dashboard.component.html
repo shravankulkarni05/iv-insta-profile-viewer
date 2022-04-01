@@ -1,0 +1,9 @@
+<div class="search-container">
+    <h3>Search Instagram profile 📷 to your device</h3>
+    <mat-form-field class="example-full-width" floatLabel="none">
+        <input matInput placeholder="Username" [(ngModel)]="userName">
+      </mat-form-field>
+      <button mat-raised-button color="accent" (click)="searchProfile(userName)">Search 🧐</button>
+</div>
+<app-ipv-profile *ngIf="profileData" [profileData]="profileData"></app-ipv-profile>
+<app-iv-footer></app-iv-footer>

@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 16px;
+    background-image: linear-gradient(260deg, #1276fe 0%, #9916b7 100%);
+    height: 56px;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar .app-name {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}

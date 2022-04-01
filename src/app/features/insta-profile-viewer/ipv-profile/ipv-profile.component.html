@@ -1,0 +1,51 @@
+<div class="user-details centered">
+    <mat-card>
+        <mat-card-content>
+            <div class="user-header">
+                <div class="user">
+                    <div class="avatar">
+                        <img class="img" [src]="profileData.avatar" alt="" imageLoader>
+                    </div>
+                    <div class="info">
+                        <span class="username">
+                            {{profileData.userName}}
+                            <span *ngIf="profileData.isProfessionalAccnt" class="material-icons-outlined verified" title="Verified Account">verified</span>
+                            <span *ngIf="profileData.isPrivate" class="material-icons-outlined lock" title="Private Account">lock</span>
+                        </span>
+                        <span class="text">{{profileData.fullName}}</span>
+                        <span class="followers">{{profileData.followersCount}} Followers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="profileData.biography" class="bio">{{profileData.biography}}</div>
+
+            <div class="account-info">
+                <div class="details">
+                    <div class="data">
+                        <div class="info">
+                            <span class="num">{{profileData.followersCount}}</span>
+                            <span class="text">Followers</span>
+                        </div>
+                        <div class="info">
+                            <span class="num">{{profileData.followingCount}}</span>
+                            <span class="text">Following</span>
+                        </div>
+                        <div class="info">
+                            <span class="num">{{profileData.postsCount}}</span>
+                            <span class="text">Posts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="link" [href]="profileData.instaUrl" target="_blank">Open on Instagram</a>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<div class="fullsize-profile-picture">
+    <div class="fullsize">
+        <img class="img" [src]="profileData.profilePicUrl" alt="" imageLoader>
+        <span class="material-icons-outlined download-pic" color="primary">download_for_offline</span>
+    </div>
+</div>
